@@ -10,15 +10,14 @@
   
   <title>Frontend Mentor | Product preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
   <div class="container">
-    <img
-      srcset="./images/image-product-desktop.jpg 600w, ./images/image-product-mobile.jpg 686w"
-      src="./images/image-product-desktop.jpg"
-      alt="perfume"
-      sizes="(max-width: 400px) 686px, 600px">
+    <picture>
+      <source media="(max-width: 499px)" srcset="./images/image-product-mobile.jpg" />
+      <source media="(min-width: 500px)" srcset="./images/image-product-desktop.jpg" />
+      <img src="./images/image-product-desktop.jpg" />
+    </picture>
 
     <div class="text">
       <p>Perfume</p>
