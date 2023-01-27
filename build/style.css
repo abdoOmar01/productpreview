@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    margin: 150px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    float: left;
+    margin-right: 30px;
+}
+
+.text p:first-child {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
+.text h1 {
+    font-family: Fraunces;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.text p:nth-of-type(2) {
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    margin-top: 25px;
+    line-height: 1.6em;
+    font-size: 14px;
+    padding-right: 40px;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.price p {
+    color:hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    text-decoration: line-through;
+    margin-right: 70px;
+    display: inline;
+}
+
+i {
+    margin-right: 10px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 15px 50px;
+    width: 240px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 20%);
+}
