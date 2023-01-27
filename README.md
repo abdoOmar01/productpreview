@@ -27,12 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpeg)
+![](./screenshot_desktop.jpeg)
+![](./screenshot_mobile.png)
 
 ### Links
 
 - Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://abdoomar01.github.io/productpreview/)
 
 ## My process
 
